@@ -1,0 +1,14 @@
+﻿  HalamanUtama.cpp
+D:\SEMESTER 2\Algoritma dan Pemrograman\UAS\projek visual studio\uas_alpro\HitungPersamaan.h(271,14): warning C4244: 'initializing': conversion from '_Ty' to 'int', possible loss of data
+D:\SEMESTER 2\Algoritma dan Pemrograman\UAS\projek visual studio\uas_alpro\HitungPersamaan.h(271,14): warning C4244:         with
+D:\SEMESTER 2\Algoritma dan Pemrograman\UAS\projek visual studio\uas_alpro\HitungPersamaan.h(271,14): warning C4244:         [
+D:\SEMESTER 2\Algoritma dan Pemrograman\UAS\projek visual studio\uas_alpro\HitungPersamaan.h(271,14): warning C4244:             _Ty=double
+D:\SEMESTER 2\Algoritma dan Pemrograman\UAS\projek visual studio\uas_alpro\HitungPersamaan.h(271,14): warning C4244:         ]
+D:\SEMESTER 2\Algoritma dan Pemrograman\UAS\projek visual studio\uas_alpro\DatarLuasSegitiga.h(252,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\SEMESTER 2\Algoritma dan Pemrograman\UAS\projek visual studio\uas_alpro\DatarLuasTrapesium.h(284,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\SEMESTER 2\Algoritma dan Pemrograman\UAS\projek visual studio\uas_alpro\RuangPrismaSegitiga.h(318,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\SEMESTER 2\Algoritma dan Pemrograman\UAS\projek visual studio\uas_alpro\RuangPrismaSegitiga.h(331,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Statistika.cpp
+  Generating Code...
+  BangunDatar.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  uas_alpro.vcxproj -> D:\SEMESTER 2\Algoritma dan Pemrograman\UAS\projek visual studio\uas_alpro\x64\Debug\uasAlpro.exe
