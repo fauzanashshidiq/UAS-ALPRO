@@ -1,5 +1,3 @@
-# UAS-ALPRO
-
 ## APLIKASI PERHITUNGAN MATEMATIKA (PROJEK MICROSOFT VISUAL STUDIO - C++)
 
 Nama           : Muhammad Fauzan Ashshidiq
