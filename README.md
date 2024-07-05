@@ -5,6 +5,9 @@
 Nama           : Muhammad Fauzan Ashshidiq
 
 NIM            : 1237050051
+
 Kelas          : IF-C
+
 Mata Kuliah    : Algoritma dan Pemrograman
+
 Dosen Pengampu : Bapak Mohamad Irfan ST., M.Kom., Ph.D
