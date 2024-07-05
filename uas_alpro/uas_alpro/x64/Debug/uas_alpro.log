@@ -1,0 +1,5 @@
+﻿  HalamanUtama.cpp
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+D:\SEMESTER 2\Algoritma dan Pemrograman\UAS\projek visual studio\uas_alpro\HalamanUtama.cpp(9,2): error C2065: 'uas_alpro': undeclared identifier
+D:\SEMESTER 2\Algoritma dan Pemrograman\UAS\projek visual studio\uas_alpro\HalamanUtama.cpp(11,1): error C2143: syntax error: missing ';' before '}'
+  Generating Code...
