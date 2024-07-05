@@ -1,0 +1,147 @@
+  uasalpro.BangunDatar.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.BangunRuang.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.DatarBelahKetupat.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.DatarJajarGenjang.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.DatarKelilingBelahKetupat.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.DatarKelilingJajarGenjang.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.DatarKelilingLayangLayang.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.DatarKelilingSegitiga.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.DatarKelilingTrapesium.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.DatarLayangLayang.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.DatarLingkaran.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.DatarLuasBelahKetupat.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.DatarLuasJajarGenjang.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.DatarLuasLayangLayang.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.DatarLuasSegitiga.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.DatarLuasTrapesium.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.DatarPersegi.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.DatarPersegiPanjang.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.DatarSegitiga.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.DatarTrapesium.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.HalamanUtama.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.HitungPersamaan.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.PersamaanKuadrat.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.RuangBalok.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.RuangBola.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.RuangKerucut.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.RuangKubus.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.RuangLimasSegiempat.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.RuangLimasSegitiga.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.RuangPrismaSegilima.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.RuangPrismaSegitiga.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.RuangTabung.resources - Embedded, ContainedInManifestFile, 
+  uasalpro.Statistika.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly uasAlpro, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class uasalpro.DatarPersegi: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.DatarPersegiPanjang: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.DatarLuasJajarGenjang: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.DatarKelilingJajarGenjang: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.DatarJajarGenjang: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.DatarLuasSegitiga: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.DatarKelilingSegitiga: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.DatarSegitiga: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.DatarLuasBelahKetupat: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.DatarKelilingBelahKetupat: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.DatarBelahKetupat: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.DatarLuasLayangLayang: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.DatarKelilingLayangLayang: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.DatarLayangLayang: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.DatarLuasTrapesium: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.DatarKelilingTrapesium: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.DatarTrapesium: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.DatarLingkaran: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.BangunDatar: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.RuangKubus: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.RuangBalok: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.RuangPrismaSegitiga: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.RuangPrismaSegilima: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.RuangLimasSegitiga: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.RuangLimasSegiempat: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.RuangTabung: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.RuangKerucut: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.RuangBola: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.BangunRuang: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.HitungPersamaan: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.PersamaanKuadrat: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.Statistika: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class uasalpro.HalamanUtama: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
