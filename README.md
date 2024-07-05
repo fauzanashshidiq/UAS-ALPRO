@@ -11,3 +11,7 @@ Kelas          : IF-C
 Mata Kuliah    : Algoritma dan Pemrograman
 
 Dosen Pengampu : Bapak Mohamad Irfan ST., M.Kom., Ph.D
+
+Souce code ada di folder uas_alpro
+
+Aplikasi (file .exe) ada di folder Aplikasi Perhitungan Matematika.zip (password-nya: matematika)
