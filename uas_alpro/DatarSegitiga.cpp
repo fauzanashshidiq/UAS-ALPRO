@@ -1,0 +1,2 @@
+#include "DatarSegitiga.h"
+
