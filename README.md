@@ -3,6 +3,7 @@
 ## APLIKASI PERHITUNGAN MATEMATIKA (PROJEK MICROSOFT VISUAL STUDIO - C++)
 
 Nama           : Muhammad Fauzan Ashshidiq
+
 NIM            : 1237050051
 Kelas          : IF-C
 Mata Kuliah    : Algoritma dan Pemrograman
