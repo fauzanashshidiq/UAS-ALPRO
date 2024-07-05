@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HalamanUtama.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HitungPersamaan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BangunDatar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BangunRuang.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PersamaanKuadrat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DatarPersegi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DatarPersegiPanjang.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DatarJajarGenjang.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DatarSegitiga.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DatarBelahKetupat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DatarLayangLayang.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DatarTrapesium.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DatarLingkaran.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DatarLuasJajarGenjang.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DatarKelilingJajarGenjang.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DatarLuasSegitiga.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DatarKelilingSegitiga.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DatarLuasBelahKetupat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DatarKelilingBelahKetupat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DatarLuasLayangLayang.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DatarKelilingLayangLayang.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DatarLuasTrapesium.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DatarKelilingTrapesium.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RuangKubus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RuangBalok.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RuangLimasSegitiga.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RuangPrismaSegilima.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RuangPrismaSegitiga.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RuangLimasSegiempat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RuangTabung.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RuangKerucut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RuangBola.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Statistika.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HalamanUtama.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HitungPersamaan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BangunDatar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BangunRuang.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PersamaanKuadrat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatarPersegi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatarPersegiPanjang.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatarJajarGenjang.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatarSegitiga.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatarBelahKetupat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatarLayangLayang.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatarTrapesium.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatarLingkaran.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatarLuasJajarGenjang.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatarKelilingJajarGenjang.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatarLuasSegitiga.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatarKelilingSegitiga.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatarLuasBelahKetupat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatarKelilingBelahKetupat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatarLuasLayangLayang.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatarKelilingLayangLayang.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatarLuasTrapesium.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatarKelilingTrapesium.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RuangKubus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RuangBalok.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RuangLimasSegitiga.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RuangPrismaSegilima.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RuangPrismaSegitiga.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RuangLimasSegiempat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RuangTabung.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RuangKerucut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RuangBola.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Statistika.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Picsart_24-06-09_11-27-25-256.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\walpaper_math.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

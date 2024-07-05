@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{8A132A04-EC05-4F35-BE50-56E59006CE60}</ProjectGuid>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>uasalpro</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>uasAlpro</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>Main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BangunDatar.cpp" />
+    <ClCompile Include="BangunRuang.cpp" />
+    <ClCompile Include="DatarBelahKetupat.cpp" />
+    <ClCompile Include="DatarJajarGenjang.cpp" />
+    <ClCompile Include="DatarKelilingBelahKetupat.cpp" />
+    <ClCompile Include="DatarKelilingJajarGenjang.cpp" />
+    <ClCompile Include="DatarKelilingLayangLayang.cpp" />
+    <ClCompile Include="DatarKelilingSegitiga.cpp" />
+    <ClCompile Include="DatarKelilingTrapesium.cpp" />
+    <ClCompile Include="DatarLayangLayang.cpp" />
+    <ClCompile Include="DatarLingkaran.cpp" />
+    <ClCompile Include="DatarLuasBelahKetupat.cpp" />
+    <ClCompile Include="DatarLuasJajarGenjang.cpp" />
+    <ClCompile Include="DatarLuasLayangLayang.cpp" />
+    <ClCompile Include="DatarLuasSegitiga.cpp" />
+    <ClCompile Include="DatarLuasTrapesium.cpp" />
+    <ClCompile Include="DatarPersegi.cpp" />
+    <ClCompile Include="DatarPersegiPanjang.cpp" />
+    <ClCompile Include="DatarSegitiga.cpp" />
+    <ClCompile Include="DatarTrapesium.cpp" />
+    <ClCompile Include="HalamanUtama.cpp" />
+    <ClCompile Include="HitungPersamaan.cpp" />
+    <ClCompile Include="PersamaanKuadrat.cpp" />
+    <ClCompile Include="RuangBalok.cpp" />
+    <ClCompile Include="RuangBola.cpp" />
+    <ClCompile Include="RuangKerucut.cpp" />
+    <ClCompile Include="RuangKubus.cpp" />
+    <ClCompile Include="RuangLimasSegiempat.cpp" />
+    <ClCompile Include="RuangPrismaSegilima.cpp" />
+    <ClCompile Include="RuangLimasSegitiga.cpp" />
+    <ClCompile Include="RuangPrismaSegitiga.cpp" />
+    <ClCompile Include="RuangTabung.cpp" />
+    <ClCompile Include="Statistika.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BangunDatar.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="BangunRuang.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DatarBelahKetupat.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DatarJajarGenjang.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DatarKelilingBelahKetupat.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DatarKelilingJajarGenjang.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DatarKelilingLayangLayang.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DatarKelilingSegitiga.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DatarKelilingTrapesium.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DatarLayangLayang.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DatarLingkaran.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DatarLuasBelahKetupat.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DatarLuasJajarGenjang.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DatarLuasLayangLayang.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DatarLuasSegitiga.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DatarLuasTrapesium.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DatarPersegi.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DatarPersegiPanjang.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DatarSegitiga.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DatarTrapesium.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="HalamanUtama.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="HitungPersamaan.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PersamaanKuadrat.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RuangBalok.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RuangBola.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RuangKerucut.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RuangKubus.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RuangLimasSegiempat.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RuangPrismaSegilima.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RuangLimasSegitiga.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RuangPrismaSegitiga.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RuangTabung.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Statistika.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BangunDatar.resx">
+      <DependentUpon>BangunDatar.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BangunRuang.resx">
+      <DependentUpon>BangunRuang.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatarBelahKetupat.resx">
+      <DependentUpon>DatarBelahKetupat.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatarJajarGenjang.resx">
+      <DependentUpon>DatarJajarGenjang.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatarKelilingBelahKetupat.resx">
+      <DependentUpon>DatarKelilingBelahKetupat.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatarKelilingJajarGenjang.resx">
+      <DependentUpon>DatarKelilingJajarGenjang.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatarKelilingLayangLayang.resx">
+      <DependentUpon>DatarKelilingLayangLayang.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatarKelilingSegitiga.resx">
+      <DependentUpon>DatarKelilingSegitiga.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatarKelilingTrapesium.resx">
+      <DependentUpon>DatarKelilingTrapesium.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatarLayangLayang.resx">
+      <DependentUpon>DatarLayangLayang.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatarLingkaran.resx">
+      <DependentUpon>DatarLingkaran.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatarLuasBelahKetupat.resx">
+      <DependentUpon>DatarLuasBelahKetupat.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatarLuasJajarGenjang.resx">
+      <DependentUpon>DatarLuasJajarGenjang.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatarLuasLayangLayang.resx">
+      <DependentUpon>DatarLuasLayangLayang.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatarLuasSegitiga.resx">
+      <DependentUpon>DatarLuasSegitiga.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatarLuasTrapesium.resx">
+      <DependentUpon>DatarLuasTrapesium.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatarPersegi.resx">
+      <DependentUpon>DatarPersegi.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatarPersegiPanjang.resx">
+      <DependentUpon>DatarPersegiPanjang.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatarSegitiga.resx">
+      <DependentUpon>DatarSegitiga.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatarTrapesium.resx">
+      <DependentUpon>DatarTrapesium.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HalamanUtama.resx">
+      <DependentUpon>HalamanUtama.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HitungPersamaan.resx">
+      <DependentUpon>HitungPersamaan.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersamaanKuadrat.resx">
+      <DependentUpon>PersamaanKuadrat.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RuangBalok.resx">
+      <DependentUpon>RuangBalok.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RuangBola.resx">
+      <DependentUpon>RuangBola.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RuangKerucut.resx">
+      <DependentUpon>RuangKerucut.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RuangKubus.resx">
+      <DependentUpon>RuangKubus.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RuangLimasSegiempat.resx">
+      <DependentUpon>RuangLimasSegiempat.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RuangLimasSegitiga.resx">
+      <DependentUpon>RuangLimasSegitiga.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RuangPrismaSegilima.resx">
+      <DependentUpon>RuangPrismaSegilima.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RuangPrismaSegitiga.resx">
+      <DependentUpon>RuangPrismaSegitiga.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RuangTabung.resx">
+      <DependentUpon>RuangTabung.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistika.resx">
+      <DependentUpon>Statistika.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Picsart_24-06-09_11-27-25-256.jpg">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="..\..\walpaper_math.jpg">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
